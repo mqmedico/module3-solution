@@ -1,0 +1,143 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: Cursive;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: darkgrey;
+  border-radius: 0;
+  border: 0;
+}
+
+
+/** MAIN CONTENT**/
+
+.container{
+  font-size: 1.25em;  
+  text-align: left;
+
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Food, LLC */
+  font-family: Impact;
+  color: black;
+  font-size: 1.8em;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#menu-name{
+	text-align: center;
+}
+
+#OurMenu{
+	text-align: center;
+	font-size: 2em;
+	color: darkred;
+	height: 50px;
+}
+#chicken {
+	background-color: #F4B400;
+	padding: 10px;
+  	border: solid 2px black;
+}
+
+#beef{
+	background-color: #4285F4;
+	padding: 10px;
+  	border: solid 2px black;
+}
+
+#sushi{
+	background-color: #DB4437;
+	padding: 10px;
+  	border: solid 2px black;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-size: 1.25em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* END HOME PAGE */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	height: 1000px;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+ 
+   #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+
+}
+
